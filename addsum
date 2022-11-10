@@ -1,0 +1,10 @@
+#!/bin/bash
+read -p "Enther the number: " num
+sum=0
+i=0
+while [ $i -le $num ]
+do
+let sum=$sum+$i
+let i++
+done
+echo "The sum is: $sum"

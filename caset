@@ -1,0 +1,31 @@
+#!/bin/bash
+while [ True ]
+do
+read -p "Please enter the number: " num
+case $num in
+  1)
+   echo "One"
+   ;;
+  2)
+   echo "Two"
+  ;;
+  3)
+  echo "Three"
+  ;;
+ *)
+  echo "The number is greater than 3"
+esac
+read -p "Do you want to try again YES|NO: " rt
+case $rt in
+  [Yy]|[Yy][Ee][Ss])
+  continue
+  ;;
+  *)
+  echo "Thanks for using the pgm"
+  break
+esac
+done
+
+
+
+ 

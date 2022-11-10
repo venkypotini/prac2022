@@ -1,0 +1,12 @@
+#!/bin/bash
+read -p "Enter the file name: " fname
+if [ -f $fname ]; then
+  if [ $(cat $fname | wc -c) -gt 0 ]; then
+    echo " The file is not empty"
+    echo $(cat $fname | wc -c)
+  else
+    echo " The file is empty"
+  fi
+else
+  echo " The file does not exist or not a binary file"
+fi

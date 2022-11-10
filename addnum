@@ -1,0 +1,21 @@
+#!/bin/bash
+while [ true ]
+do
+echo " Adding numbers"
+read -p "Enter the first number: " num1
+read -p "Enter the second number: " num2
+sum=$[num1 + num2]
+echo "The Sum: $sum"
+read -p "Do you want to add more numbers: YES|NO: " option
+case $option in
+   [yY]|[yY][eE][sS])
+    continue
+     ;;
+   [nN]|[Nn][Oo])
+     echo " Thanks for using the cal "
+     break
+     ;;
+esac
+done
+ 
+

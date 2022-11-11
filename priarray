@@ -1,0 +1,18 @@
+#!/bin/bash
+fruits=(apple kiwi bananna mango)
+len=${#fruits[@]}
+i=0
+while [ $i -le $len ]
+do
+echo ${fruits[$i]}
+let i++
+done
+for x in ${fruits[@]}
+do
+echo $x
+done
+echo
+for ((i=0;i<=$len;i++))
+do
+echo ${fruits[$i]}
+done

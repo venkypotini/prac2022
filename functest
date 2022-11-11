@@ -1,0 +1,19 @@
+#!/bin/bash
+wish()
+{
+echo "Hello world.... How are you"
+}
+wish
+wish
+calc()
+{
+if [ $# -ne 2 ]; then
+echo "You need to pass only 2 numbers"
+exit  1
+fi
+a=$1
+b=$2
+echo "The sum is: $[a+b]"
+}
+calc 20 30
+calc 10

@@ -1,0 +1,10 @@
+#!/bin/bash
+fruits[10]=apple
+fruits[20]=kiwi
+fruits[30]=bananna
+fruits[40]=mango
+for i in ${!fruits[@]}
+do
+echo ${fruits[$i]}
+done
+

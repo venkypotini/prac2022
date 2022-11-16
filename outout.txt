@@ -1,0 +1,17 @@
+total 60
+-rwxr-xr-x. 1 root root 381 Nov 10 10:35 addnum
+-rwxr-xr-x. 1 root root 134 Nov 10 13:04 addsum
+-rwxr-xr-x. 1 root root 133 Nov 15 10:51 arth.sh
+-rwxr-xr-x. 1 root root 127 Nov 10 13:53 by10
+-rwxr-xr-x. 1 root root 362 Nov 10 12:33 caset
+-rwxr-xr-x. 1 root root 286 Nov 10 10:57 chkfile
+-rw-r--r--. 1 root root  12 Nov 15 10:55 f1.txt
+-rw-r--r--. 1 root root  52 Nov 15 10:51 fetch-test
+-rwxr-xr-x. 1 root root 206 Nov 15 10:51 functest
+-rw-r--r--. 1 root root   0 Nov 16 14:42 outout.txt
+-rwxr-xr-x. 1 root root 219 Nov 15 10:51 priarray
+-rwxr-xr-x. 1 root root 132 Nov 15 10:51 priarray2
+-rw-r--r--. 1 root root  10 Nov 15 10:51 README.md
+-rwxr-xr-x. 1 root root 139 Nov 10 11:35 strem
+-rw-r--r--. 1 root root  12 Nov 15 10:51 ttfile.txt
+-rwxr-xr-x. 1 root root 186 Nov 15 10:51 util.sh
